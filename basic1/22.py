@@ -1,0 +1,23 @@
+tup = ()
+print('tup',tup.__sizeof__())
+lis = []
+print('list',lis.__sizeof__())
+
+tup = (1,2,3)
+print('tup',tup.__sizeof__())
+lis = [1,2]   
+print('list',lis.__sizeof__())
+lis.append(3)
+print('list',lis.__sizeof__())
+lis.append(4)
+print('list',lis.__sizeof__())
+lis.append(5)
+print('list',lis.__sizeof__())
+lis.append(6)
+print('list',lis.__sizeof__())
+lis.append(7)
+print('list',lis.__sizeof__())
+lis.append(8)
+print('list',lis.__sizeof__())
+lis.append(9)
+print('list',lis.__sizeof__())
